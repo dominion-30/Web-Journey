@@ -2,6 +2,7 @@
 
 body{
     font-family:sans-serif ;
+    font-size: 16px;
 }
 
 
@@ -9,8 +10,21 @@ body{
 h1{
     color:#2f4f4f;
     margin-bottom: 10px;
+    font-weight: bold;
     
 }
+
+.title{
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-stretch:normal;
+    line-height: normal;
+    font-size: 32px;
+    font-family:Arial, Helvetica, sans-serif
+    /* font: 32px Helvetica, Arial, sans-serif; */
+}
+
 
 .nav{
     margin-top: 10px;
@@ -26,13 +40,19 @@ h1{
 .nav a{
     color:white;
     background-color: #13a4a4;
-    padding: 5px;
+
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px; 
     border-radius:2px;
+    
     text-decoration: none;
 }
 
 .nav .featured {
     background-color:orange;
+    box-shadow: 10px 2px #6f9090;
 }
 
 a:link{
@@ -60,6 +80,32 @@ a:active{
 }
 
 .footer a{
-    color: inherit;
+    color: initial;
     text-decoration: none;
+}
+footer{
+    margin-top: 3em;
+}
+.padded{
+    border-style:dashed;
+    padding:1em;
+    margin-bottom: 3em;
+}
+
+.box{
+    padding: 1.5em;
+    background-color: #6f9090;
+    border-radius: 0.5em;
+    display: inline;
+}
+.box-small{
+    font-size: 12px;
+}
+
+.box-large{
+    font-size: 18px;
+}
+
+.padded_paragraph{
+    border-style: dashed;
 }
