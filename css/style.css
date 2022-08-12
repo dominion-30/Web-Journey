@@ -1,5 +1,7 @@
 /* Applying a font to the body element */
-
+:root{
+    font-size: 2 em;
+}
 body{
     font-family:sans-serif ;
     font-size: 16px;
@@ -108,4 +110,24 @@ footer{
 
 .padded_paragraph{
     border-style: dashed;
+}
+
+.love{
+    border: 0.2em solid black;
+    width:max-content;
+    margin-top: 3em;
+}
+
+.coffee_small{
+    font-size: 12px;
+}
+
+.coffee_large{
+    font-size: 1.2em;
+    padding: 1.2em;
+    background-color: #ccc;
+}
+
+ul {
+    font-size: .8rem;
 }
