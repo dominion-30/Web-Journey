@@ -21,6 +21,7 @@ a:active{
 
 .single-origin h2{
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .single-origin{
@@ -36,4 +37,21 @@ footer{
     border: 1em solid gray;
     background-color: gray;
 
+}
+
+
+@media(min-width: 800px){
+    :root{
+        font-size: 0.875em;
+    }
+}
+
+@media(min-width: 1200px){
+    :root{
+        font-size: 1em;
+    }
+} 
+.larger{
+    margin-top: 1em;
+    font-size: 1.2rem;
 }
