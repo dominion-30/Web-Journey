@@ -1,0 +1,1 @@
+This chapter contains details on Mastering the box model such as vertical centering, columns of equal height, negative margins and margin collapsing

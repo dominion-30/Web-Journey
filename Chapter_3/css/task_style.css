@@ -1,0 +1,74 @@
+:root{
+    --main-font:Helvetica, Arial, sans-serif;
+
+    --main-bg:rgb(17, 98, 138);
+    --main-color:#fff;
+    --background:rgba(216, 211, 211, 0.26);
+
+}
+
+main{
+     background-color: var(--background);
+     border: 1px solid black;
+    
+
+}
+
+header{
+    background-color: var(--main-bg);
+    color: var(--main-color);
+    padding: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0.2em;
+    border-radius: 0.5em;
+
+}
+
+.body{
+    background-color: var(--main-color);
+    color: black;
+    margin: 0.2em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width: 70%;
+    
+}
+
+.left{
+    background-color: var(--main-color);
+    color: black;
+    margin: 0.2em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    width: 30%;
+
+}
+
+.contact{
+    
+    background-color: var(--main-bg);
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 0.16em;
+    padding-bottom: 0.16em;
+    margin-bottom: 0.7em;
+    
+
+
+    
+}
+
+.contact a{
+    color: #fff;
+    padding: 1em;
+}
+.container{
+    display: flex;
+}
+
+p a{
+    color: blue;
+}
+
