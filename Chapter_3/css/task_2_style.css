@@ -1,0 +1,41 @@
+:root{
+    --main-font:Helvetica, Arial, sans-serif;
+    --text-color: #000;
+    --link-color:rgb(143, 72, 72);
+    font-size: 1em;
+}
+
+header{
+    text-align: center;
+    color: var(--text-color) ;
+    border: 0.2em solid var(--link-color);
+    padding: 0.8em;
+    font-size: 3em;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.leftside-page{
+    width: 40%;
+}
+
+.middle-page{
+    width: 30%;
+}
+
+.rightside-page{
+    width: 30%;
+}
+
+.rightlink{
+    display: block;
+    text-align: center;
+    padding: 0.7em;
+    border: 0.2em solid var(--link-color);
+    margin-top: 0.8em;
+    font-weight: bold;
+    font-size: 1.5em;
+}
