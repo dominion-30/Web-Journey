@@ -1,0 +1,50 @@
+:root{
+    /* color and font for the body element */
+    --main-font:Helvetica, Arial, sans-serif;
+    --bg-color:#eee;
+
+    --hd-color:#fff;
+    --hdbackground:#0072b0;
+    font-size: 1em;
+    --bradius:0.5em;
+
+}
+
+body{
+    
+    background-color:var(--bg-color) ;
+}
+
+
+header{
+    color: var(--hd-color);
+    background-color: var(--hdbackground);
+    border-radius: var(--bradius);
+}
+main{
+    display: block;
+    
+    
+}
+
+.main{
+    
+    
+    --bg-color:#fff;
+    background-color: var(--bg-color);
+    border-radius: var(--bradius);
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    box-sizing: border-box;
+    padding: 1.5em;
+    background-color: var(--hd-color);
+    border-radius: var(--bradius);
+    float: left;
+    width: calc(30% - 1.5em);
+    margin-left: 1.5em;
+    
+}
