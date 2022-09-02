@@ -75,9 +75,10 @@ li{
 
 li a{
     color: var(--body-color);
+    text-decoration: none;
 }
 a{
-    
+   
     color: var(--main-color);
 }
 
