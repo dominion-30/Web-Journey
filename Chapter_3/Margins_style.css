@@ -11,6 +11,10 @@ p{
     
     
 }
+h1, .right, header{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .b{
     margin-right: -50em;
 }
