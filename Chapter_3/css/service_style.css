@@ -1,0 +1,74 @@
+:root{
+    --main-size: 1em;
+    --background-color:#0072b0;
+    --main-color: #fff;
+    --column-color:#eee;
+    box-sizing: border-box;
+}
+
+body * + *{
+    margin: 1.5em;
+}
+
+body{
+    background-color: var(--column-color);
+}
+
+main{
+    background-color: var(--main-color);
+    
+}
+
+header{
+    --main-size:1em;
+    background-color: var(--background-color);
+    color: white;
+    padding: 0.8em 0.8em 0.8em ;
+    border-radius: 0.5em;
+    font-size: var(--main-size);
+}
+
+main + h2{
+    font-size: var(--main-size);
+    color: black;
+    font-weight: bold;
+}
+
+body div{
+    background-color: var(--column-color);
+}
+
+.strength{
+    
+    float: left;
+    
+}
+
+.cadence{
+    
+    float: right;
+}
+
+.change_it_up{
+    float: left;
+}
+
+.focus_on_form{
+    float: right;
+}
+.strength, .cadence,.change_it_up,.focus_on_form{
+    display: inline-block;
+    border: 0.1em solid;
+    width: 50%;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    display: block;
+    content: " ";
+    clear:both;
+}
